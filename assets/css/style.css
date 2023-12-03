@@ -1,3 +1,19 @@
+/*asterix wildcard slector to override defaults styles added by the browser*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(5, 103, 168);
+}
+main{
+  background-color: black;
+}
+footer{
+  background-color: rgb(5, 103, 168);
+
+}
 ul {
     list-style-type: none;
     margin: 0;
