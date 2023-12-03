@@ -1,63 +1,64 @@
-/*asterix wildcard slector to override defaults styles added by the browser*/
+/*asterix wildcard selector to override default styles added by the browser*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-header{
+
+/*Header*/
+header {
   background-color: rgb(5, 103, 168);
+  color: black;
 }
-main{
+
+/*main content*/
+main {
   background-color: black;
+  /*flex to make main element take up all the surplus space*/
+  flex: 1 0 auto;
 }
-footer{
+
+footer {
   background-color: rgb(5, 103, 168);
 
 }
+/*general styles*/ 
+body{
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  /*generic project styles*/
+  color:  rgb(5, 103, 168);
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 5rem;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 16px;
-    font-family: Lato;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    display: inline;
-  }
+li {
+  display: inline;
+}
 
-  nav {
-    text-align: center;
-    border-bottom: 2px solid black;
-    margin: 0px 20px 20px 20px;
-    padding-bottom: 20px;
-  }
+/*nav bar*/
+nav {
+  text-align: center;
+  border-bottom: 2px solid black;
+  margin: 0px 20px 20px 20px;
+  padding-bottom: 20px;
+}
 
-  img {
-    border: 2px solid black;
-    max-width: 60%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+img {
+  border: 2px solid black;
+  max-width: 60%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-  h1 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-  }
+}
 
-  figure {
-    margin-top: 40px;
-  }
+figure {
+  margin-top: 40px;
+}
