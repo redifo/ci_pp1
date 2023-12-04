@@ -32,6 +32,7 @@ body{
   flex-direction: column;
   /*generic project styles*/
   color:  rgb(5, 103, 168);
+  font-family: 'Work Sans', sans-serif;
 }
 
 ul {
