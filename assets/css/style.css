@@ -66,13 +66,19 @@ ul {
   padding: 0;
 }
 
-li {
-  display: inline;
-}
+
 #menu {
   font-size: 140%;
   letter-spacing: 1px;
   list-style-type: none;
+}
+/*css to target the li elements of menu*/
+#menu > li{
+  margin-bottom: 1em;
+}
+
+.active {
+  border-bottom: 1px solid;
 }
 img {
   border: 2px solid black;
