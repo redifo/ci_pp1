@@ -14,6 +14,22 @@ header {
   padding: 0 1rem;
   position:fixed;
   z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px rgb(252, 173, 4);
+}
+/*a decendent of header*/
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+/*nav bar*/
+nav {
+  text-align: center;
+  background-color: rgb(5, 103, 168);
+  margin: 0px 0px 0px 0px;
+  
+  width: 100%;
+  
 }
 
 /*main content*/
@@ -50,14 +66,7 @@ li {
   display: inline;
 }
 
-/*nav bar*/
-nav {
-  text-align: center;
-  background-color: rgb(5, 103, 168);
-  margin: 0px 0px 0px 0px;
-  padding-bottom: 20px;
-  width: 100%;
-}
+
 
 img {
   border: 2px solid black;
