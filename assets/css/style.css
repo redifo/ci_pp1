@@ -55,7 +55,11 @@ body{
 }
 h1{
   font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(252, 173, 4);
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -65,9 +69,11 @@ ul {
 li {
   display: inline;
 }
-
-
-
+#menu {
+  font-size: 140%;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
 img {
   border: 2px solid black;
   max-width: 60%;
