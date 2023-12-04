@@ -34,7 +34,9 @@ body{
   color:  rgb(5, 103, 168);
   font-family: 'Work Sans', sans-serif;
 }
-
+h1{
+  font-family: 'Work Sans', sans-serif;
+}
 ul {
   list-style-type: none;
   margin: 0;
