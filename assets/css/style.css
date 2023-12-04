@@ -11,6 +11,9 @@
 header {
   background-color: rgb(5, 103, 168);
   color: black;
+  padding: 0 1rem;
+  position:fixed;
+  z-index: 99;
 }
 
 /*main content*/
@@ -50,9 +53,10 @@ li {
 /*nav bar*/
 nav {
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(5, 103, 168);
   margin: 0px 0px 0px 0px;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 img {
