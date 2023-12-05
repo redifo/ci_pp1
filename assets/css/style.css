@@ -10,34 +10,64 @@
 
 /*Header*/
 header {
-  background-color: rgb(5, 103, 168);
-  color: black;
+  background-color: #05386f;
+  color: #edf5e1;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px rgb(252, 173, 4);
+  box-shadow: 1px 1px 5px 5px #379683;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
+}
+
+/*general styles*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*generic project styles*/
+  color: #05386f;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #edf5e1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*a decendent of header*/
 header a {
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
   color: inherit;
+}
+
+/*logo img*/
+#logo-img {
+  max-height: 4rem;
 }
 
 /*nav bar*/
 nav {
   position: absolute;
   left: 0;
-  background-color: rgb(5, 103, 168);
+  background-color: #05386f;
 
   padding: 0 1rem;
   display: none;
   width: 100%;
-  box-shadow: 0 2px 2px rgb(252, 173, 4);
+  box-shadow: 1px 5px 5px #379683;
   top: 100%;
 }
 
@@ -56,43 +86,29 @@ nav {
 
 /*main content*/
 main {
-  background-color: black;
+  background-color: #5cdb95;
+
   /*flex to make main element take up all the surplus space*/
   flex: 1 0 auto;
   margin-top: 2.5rem;
 }
+
 /* Footer*/
 footer {
-  #social-network{
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1.2rem 0;
-  }
-
+  background-color: #8ee4af;
 }
 
-/*general styles*/
-body {
-  min-height: 100vh;
+#social-network {
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  /*generic project styles*/
-  color: rgb(5, 103, 168);
-  font-family: 'Work Sans', sans-serif;
+  justify-content: space-evenly;
+  padding: 1.2rem 0;
 }
 
-h1 {
-  font-family: 'Work Sans', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: rgb(252, 173, 4);
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+#social-network i {
+  font-size: 160%;
+  padding: 5%;
+  color: #05386f;
 }
 
 #menu {
@@ -110,8 +126,10 @@ ul {
 .active {
   border-bottom: 1px solid;
 }
+
 /*media querry: tablets and larger (768 px up)*/
 @media screen and (min-width:768px) {
+
   /*Header*/
   nav {
     display: block;
@@ -120,29 +138,35 @@ ul {
     width: fit-content;
     padding-right: 1rem;
   }
-  #menu{
+
+  #menu {
     display: flex;
   }
-  #menu > li{
+
+  #menu>li {
     padding-left: 1rem;
   }
-  .nav-toggle-label{
+
+  .nav-toggle-label {
     display: none;
   }
+
   #logo {
     font-size: 200%;
     line-height: 75px;
     margin: 0 0.5rem;
   }
-  /*main content */ 
-  main{
+
+  /*main content */
+  main {
     /*push main content down to accomodate larger header*/
     margin-top: 79px;
   }
 }
+
 /*media querry:  larger screens (mouse enabled devices) (992 px up)*/
 @media screen and (min-width:992px) {
-  #menu a:hover{
+  #menu a:hover {
     border-bottom: 1px solid;
   }
 }
