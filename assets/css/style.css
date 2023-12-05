@@ -1,5 +1,6 @@
 /*google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*asterix wildcard selector to override default styles added by the browser*/
 * {
   padding: 0;
@@ -12,7 +13,7 @@ header {
   background-color: rgb(5, 103, 168);
   color: black;
   padding: 0 1rem;
-  position:fixed;
+  position: fixed;
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px rgb(252, 173, 4);
@@ -20,34 +21,39 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
+
 /*a decendent of header*/
-header a{
+header a {
   text-decoration: none;
   color: inherit;
 }
+
 /*nav bar*/
 nav {
   position: absolute;
   left: 0;
   background-color: rgb(5, 103, 168);
-  
+
   padding: 0 1rem;
   display: none;
   width: 100%;
   box-shadow: 0 2px 2px rgb(252, 173, 4);
   top: 100%;
 }
+
 /* nav toggle*/
-#nav-toggle:checked~nav{
-  display:block;
+#nav-toggle:checked~nav {
+  display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
   display: none;
 }
-.nav-toggle-label{
+
+.nav-toggle-label {
   font-size: 2rem;
 }
+
 /*main content*/
 main {
   background-color: black;
@@ -61,16 +67,18 @@ footer {
   color: black;
 
 }
-/*general styles*/ 
-body{
+
+/*general styles*/
+body {
   min-height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   /*generic project styles*/
-  color:  rgb(5, 103, 168);
+  color: rgb(5, 103, 168);
   font-family: 'Work Sans', sans-serif;
 }
-h1{
+
+h1 {
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -83,30 +91,38 @@ ul {
   padding: 0;
 }
 
-
 #menu {
   font-size: 140%;
   letter-spacing: 1px;
   list-style-type: none;
 }
+
 /*css to target the li elements of menu*/
-#menu > li{
+#menu>li {
   margin-bottom: 1em;
 }
 
+/*marking the active page in menu with bottom border*/
 .active {
   border-bottom: 1px solid;
 }
-img {
-  border: 2px solid black;
-  max-width: 60%;
-  padding: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-figure {
-  margin-top: 40px;
+/*media querry: tablets and larger (768 px up)*/
+@media screen and (min-width:768px) {
+  /*Header*/
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
+  #menu{
+    display: flex;
+  }
+  #menu > li{
+    padding-left: 1rem;
+  }
+  .nav-toggle-label{
+    display: none;
+  }
 }
