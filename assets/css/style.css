@@ -16,6 +16,9 @@ header {
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px rgb(252, 173, 4);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 /*a decendent of header*/
 header a{
@@ -24,19 +27,33 @@ header a{
 }
 /*nav bar*/
 nav {
-  text-align: center;
+  position: absolute;
+  left: 0;
   background-color: rgb(5, 103, 168);
-  margin: 0px 0px 0px 0px;
   
+  padding: 0 1rem;
+  display: none;
   width: 100%;
-  
+  box-shadow: 0 2px 2px rgb(252, 173, 4);
+  top: 100%;
+}
+/* nav toggle*/
+#nav-toggle:checked~nav{
+  display:block;
 }
 
+#nav-toggle{
+  display: none;
+}
+.nav-toggle-label{
+  font-size: 2rem;
+}
 /*main content*/
 main {
   background-color: black;
   /*flex to make main element take up all the surplus space*/
   flex: 1 0 auto;
+  margin-top: 2.5rem;
 }
 
 footer {
