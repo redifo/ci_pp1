@@ -22,40 +22,19 @@ header {
   align-items: center;
 }
 
-/*general styles*/
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /*generic project styles*/
-  color: #05386f;
-  font-family: 'Work Sans', sans-serif;
-}
-
-h1 {
-  font-family: 'Work Sans', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #edf5e1;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 /*a decendent of header*/
 header a {
   display: flex;
   flex-direction: row;
   text-decoration: none;
   color: inherit;
+  align-items: center;
 }
 
 /*logo img*/
 #logo-img {
-  max-height: 4rem;
+  max-height: 6rem;
+  width: auto;
 }
 
 /*nav bar*/
@@ -84,6 +63,29 @@ nav {
   font-size: 2rem;
 }
 
+/*general styles*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*generic project styles*/
+  color: #05386f;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #edf5e1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*main content*/
 main {
   background-color: #5cdb95;
@@ -110,7 +112,10 @@ footer {
   padding: 5%;
   color: #05386f;
 }
-
+#social-network i:hover{
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}
 #menu {
   font-size: 140%;
   letter-spacing: 1px;
