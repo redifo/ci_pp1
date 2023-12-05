@@ -61,10 +61,14 @@ main {
   flex: 1 0 auto;
   margin-top: 2.5rem;
 }
-
+/* Footer*/
 footer {
-  background-color: rgb(5, 103, 168);
-  color: black;
+  #social-network{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem 0;
+  }
 
 }
 
@@ -124,5 +128,21 @@ ul {
   }
   .nav-toggle-label{
     display: none;
+  }
+  #logo {
+    font-size: 200%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
+  /*main content */ 
+  main{
+    /*push main content down to accomodate larger header*/
+    margin-top: 79px;
+  }
+}
+/*media querry:  larger screens (mouse enabled devices) (992 px up)*/
+@media screen and (min-width:992px) {
+  #menu a:hover{
+    border-bottom: 1px solid;
   }
 }
