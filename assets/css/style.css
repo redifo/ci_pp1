@@ -92,7 +92,8 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -109,31 +110,56 @@ ul {
 /*main content*/
 main {
   background-color: #5cdb95;
-
   /*flex to make main element take up all the surplus space*/
   flex: 1 0 auto;
   margin-top: 100px;
 }
+
+/*Main heading index*/
+#heading-popular {
+  
+  padding-top: 20px;
+  text-align: center;
+  font-size: 150%;
+  
+}
+#heading-popular h4{
+  display: inline-block;
+  border: 2px solid #05386f;
+}
 /* Hero section*/
-#hero{
+#hero {
   height: 390px;
   width: 100%;
   background: url("../img/hero.webp") no-repeat center center/cover;
   position: relative;
   justify-content: center;
 }
-#hero-text{
+
+#hero-text {
   position: absolute;
-  background-color:rgb(5, 56,111,0.8) ;
+  background-color: rgb(5, 56, 111, 0.8);
   bottom: 10px;
   width: 100%;
   text-align: center;
-  
 }
-#heading-popular{
-  padding-top: 20px;
-  text-align: center;
-  font-size: 150%;
+/*life hack box cotainer*/
+.lh-box{
+  background-color:#edf5e1;
+  display: flex;
+  min-width: 350px;
+  min-height: 350px;
+  padding: 20px 20px;
+  margin: 50px;
+}
+
+/* life hack contents*/
+.lh-content{
+  background: url();
+}
+/*life hack image*/
+.lh-img{
+  background: url();
 }
 /* Footer*/
 footer {
@@ -162,21 +188,25 @@ footer {
 .active {
   background-color: #379683;
 }
-/* footer button*/ 
-footer button{
-  background-color:#05386f ;
+
+/* footer button*/
+footer button {
+  background-color: #05386f;
   color: #5cdb95;
   font-size: 1rem;
   padding: 2px 2px;
 }
-footer button:hover{
-  color:#edf5e1;
+
+footer button:hover {
+  color: #edf5e1;
 }
-footer form{
+
+footer form {
   padding-left: 5%;
   padding-top: 10px;
 }
-footer form h3{
+
+footer form h3 {
   padding-bottom: 5px;
 }
 
@@ -228,10 +258,12 @@ footer form h3{
     line-height: 75px;
     margin: 0 0.5rem;
   }
-  #hero-text{
+
+  #hero-text {
     right: 25%;
     width: 50%;
   }
+
   /*marking the active page in menu with background and font color change*/
   .active {
     background-color: #379683;
