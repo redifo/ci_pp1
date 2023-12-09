@@ -148,24 +148,29 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
 }
 /*life hack box cotainer*/
 .lh-box{
   background-color:#edf5e1;
   display: flex;
-  min-width: 350px;
+  min-width: 300px;
   min-height: 350px;
   padding: 20px 20px;
-  margin: 50px;
+  margin: 20px;
 }
 
+/* life hack problem title*/
+.lh-problem{
+  
+}
 /* life hack contents*/
 .lh-content{
-  background: url();
+  
 }
 /*life hack image*/
 .lh-img{
-  background: url();
+  
 }
 /* Footer*/
 footer {
@@ -279,6 +284,12 @@ footer form h3 {
   /* Highlight the menu item with mouse on it with backgound color change */
   #menu a:hover {
     background-color: #379683;
+  }
+  /*Change flex driection of the main grid to show more than 1 lifehack box on a row*/
+  .flex-grid{
+    
+    flex-direction: row;
+    
   }
 }
 
