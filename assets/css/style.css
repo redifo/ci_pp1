@@ -143,6 +143,12 @@ main {
   width: 100%;
   text-align: center;
 }
+/* flex grid to adjust life hack box locations*/
+.flex-grid{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 /*life hack box cotainer*/
 .lh-box{
   background-color:#edf5e1;
