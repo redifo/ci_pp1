@@ -117,7 +117,7 @@ All Pages on the website are responsive and have:
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
   ![   Title](documentation/)
 
-* The footer appears at the bottom of every page and has a subscribe to newsletter form. When the subscribe button is clicked a pop up comes shwoing succussfull message.  
+* The footer appears at the bottom of every page and has a subscribe to newsletter form.
 
 #### The Home Page
 
@@ -254,7 +254,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 * 
 
-* I used this pop up example as a guide for the footer subscribe button pop-up. https://codepen.io/imprakash/pen/GgNMXO
+* 
 
 ### Content
 
