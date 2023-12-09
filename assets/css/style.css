@@ -92,7 +92,7 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Work Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -114,7 +114,27 @@ main {
   flex: 1 0 auto;
   margin-top: 100px;
 }
-
+/* Hero section*/
+#hero{
+  height: 390px;
+  width: 100%;
+  background: url("../img/hero.webp") no-repeat center center/cover;
+  position: relative;
+  justify-content: center;
+}
+#hero-text{
+  position: absolute;
+  background-color:rgb(5, 56,111,0.8) ;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  
+}
+#heading-popular{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 150%;
+}
 /* Footer*/
 footer {
   background-color: #8ee4af;
@@ -153,47 +173,13 @@ footer button:hover{
   color:#edf5e1;
 }
 footer form{
-  padding-left: 20px;
+  padding-left: 5%;
+  padding-top: 10px;
 }
-/*popup overlay for subscribe button
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  opacity: 0;
-  display: none;
+footer form h3{
+  padding-bottom: 5px;
 }
-.overlay:target {
-  display: block;
-  opacity: 1;
-}
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background:#edf5e1;
-  border-radius: 5px;
-  width: 30%;
-  position: relative;
-  transition: all 5s ease-in-out;
-}
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color:#05386f;
-}
-*/
+
 /*media querry: tablets and larger (768 px up)*/
 @media screen and (min-width:768px) {
 
@@ -242,7 +228,10 @@ footer form{
     line-height: 75px;
     margin: 0 0.5rem;
   }
-
+  #hero-text{
+    right: 25%;
+    width: 50%;
+  }
   /*marking the active page in menu with background and font color change*/
   .active {
     background-color: #379683;
