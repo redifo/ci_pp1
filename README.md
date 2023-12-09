@@ -117,6 +117,8 @@ All Pages on the website are responsive and have:
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
   ![   Title](documentation/)
 
+* The footer appears at the bottom of every page and has a subscribe to newsletter form.
+
 #### The Home Page
 
 The home page  sites name as a title and then a container which holds some welcome text, 
@@ -130,8 +132,6 @@ The game page displays the sites name as a title. This also acts as a link back 
 ![](documentation/features/)
 
 ![Image of ](documentation/features/)
-
-![](documentation/features/)
 
 
 #### Future Implementations
@@ -254,7 +254,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 * 
 
-* I used this 
+* 
 
 ### Content
 
