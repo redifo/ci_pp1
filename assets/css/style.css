@@ -234,8 +234,12 @@ footer button:hover {
 footer form {
   padding-left: 15%;
   padding-top: 10px;
+  
 }
-
+footer input {
+  
+  height: 25px;
+}
 footer form h3 {
   padding-bottom: 5px;
 }
