@@ -273,11 +273,13 @@ footer form h3 {
 .contact-form {
   display: flex;
   flex-direction: column;
+  
 }
 
 .contact-form-container {
   max-width: 600px;
   margin-top: 20px;
+  
   padding: 0 20px 20px 20px;
   box-shadow: 10px 10px 10px #379683;
   background-color: #edf5e1;
@@ -288,7 +290,25 @@ footer form h3 {
   margin-top: 10px;
   font-weight: bold;
 }
+.contact-form input,
+textarea {
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.contact-form button {
+  background-color: #5cdb95;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
+.contact-form button:hover {
+  background-color: #8ee4af;
+}
 /*media querry: tablets and larger (768 px up)*/
 @media screen and (min-width:768px) {
 
