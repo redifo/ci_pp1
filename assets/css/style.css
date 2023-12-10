@@ -35,56 +35,6 @@ header a {
 
 }
 
-
-/*logo img*/
-#logo-img {
-  max-height: 6rem;
-  width: auto;
-}
-
-/*nav bar*/
-nav {
-
-  position: absolute;
-  left: 0;
-  background-color: #05386f;
-  top: 100px;
-
-  display: none;
-  width: 100%;
-  box-shadow: 1px 5px 5px #379683;
-
-
-}
-/*nav menu*/
-#menu {
-  font-size: 140%;
-  letter-spacing: 1px;
-  list-style-type: none;
-}
-
-/*css to target the li elements of menu*/
-#menu>li>a {
-  margin-bottom: 1rem;
-  padding: 0 1rem;
-}
-/*cursor movement on small screens over menu items*/
-#menu a:hover {
-  background-color: #379683;
-}
-/* nav toggle*/
-#nav-toggle:checked~nav {
-  display: block;
-}
-
-#nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
-  font-size: 2rem;
-}
-
 /*general styles*/
 body {
   min-height: 100vh;
@@ -109,6 +59,63 @@ ul {
   margin: 0;
   padding: 0;
 }
+/*logo img*/
+#logo-img {
+  max-height: 6rem;
+  width: auto;
+}
+
+/*nav bar*/
+nav {
+
+  position: absolute;
+  left: 0;
+  background-color: #05386f;
+  top: 100px;
+
+  display: none;
+  width: 100%;
+  box-shadow: 1px 5px 5px #379683;
+
+
+}
+
+/*nav menu  (ul)*/
+#menu {
+  font-size: 140%;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
+
+/*css to target the li elements of menu*/
+#menu>li>a {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+/*cursor movement on small screens over menu items*/
+#menu a:hover {
+  background-color: #379683;
+}
+
+/* nav toggle*/
+#nav-toggle:checked~nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+}
+/*Change properies of the active page on the nav bar for highlighting*/
+.active {
+  background-color: #379683;
+}
+
+
 
 /*main content*/
 main {
@@ -120,15 +127,18 @@ main {
 
 /*Main heading above lif hack boxes index*/
 #heading-popular {
-  
+
   padding-top: 20px;
   text-align: center;
   font-size: 150%;
-  
+
 }
-#heading-popular h4{
+
+#heading-popular h4 {
   display: inline-block;
-  border: 2px solid #05386f;
+  border: 5px solid #05386f;
+  background-color: #05386f;
+  color: #edf5e1;
 }
 
 /* Hero section*/
@@ -147,35 +157,39 @@ main {
   width: 100%;
   text-align: center;
 }
+
 /* flex grid to adjust life hack box locations*/
-.flex-grid{
+.flex-grid {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 /*life hack box cotainer*/
-.lh-box{
-  background-color:#edf5e1;
+.lh-box {
+  background-color: #edf5e1;
   display: flex;
   min-width: 300px;
   min-height: 350px;
-  padding: 20px 20px;
+  padding: 0;
   margin: 20px;
+
 }
 
 /* life hack problem title*/
-.lh-problem{
-  
-}
+.lh-problem {}
+
 /* life hack contents*/
-.lh-content{
-  
-}
+.lh-content {}
+
 /*life hack image*/
-.lh-img{
-  
+.lh-img img {
+  object-fit: fill;
+  align-self: center;
+  width: 100%;
 }
+
 /* Footer*/
 footer {
   background-color: #8ee4af;
@@ -200,24 +214,23 @@ footer {
   transition: all 0.2s ease-in-out;
 }
 
-.active {
-  background-color: #379683;
-}
 
-/* footer button*/
+
+/* footer subscribe button*/
 footer button {
   background-color: #05386f;
-  color: #5cdb95;
+  color: #edf5e1;
   font-size: 1rem;
   padding: 2px 2px;
 }
 
 footer button:hover {
-  color: #edf5e1;
+  color:#5cdb95;
 }
 
+/*footer form setings to adjst the gap between other items*/
 footer form {
-  padding-left: 5%;
+  padding-left: 9%;
   padding-top: 10px;
 }
 
@@ -225,6 +238,32 @@ footer form h3 {
   padding-bottom: 5px;
 }
 
+/*contact page headings*/
+#contact{
+  justify-content: center;
+  
+}
+#contact h2{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display:flex;
+  justify-content: center;
+  background-color: #05386f;
+  width:38%;
+  margin-left: 31%;  
+  margin-top: 5px;
+}
+#contact h3{
+  
+  display:flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  border: 2px solid #05386f;
+  margin-top: 20px;
+  
+  
+}
 /*media querry: tablets and larger (768 px up)*/
 @media screen and (min-width:768px) {
 
@@ -289,11 +328,23 @@ footer form h3 {
   #menu a:hover {
     background-color: #379683;
   }
+
   /*Change flex driection of the main grid to show more than 1 lifehack box on a row*/
-  .flex-grid{
-    
+  .flex-grid {
+
     flex-direction: row;
-    
+
+  }
+  /*Footer form size adjustment*/
+  footer form{
+      width: auto;
+  }
+  footer input{
+    width: 375px;
+    height: 25px;
+  }
+  footer h3{
+    font-size: 170%;
   }
 }
 
