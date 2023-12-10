@@ -176,20 +176,57 @@ main {
   min-height: 350px;
   padding: 0;
   margin: 20px;
+  position: relative;
 
 }
 
 /* life hack problem title*/
-.lh-problem {}
+.lh-problem p {
+  position: absolute;
+  background-color: rgb(142, 228, 175, 0.85);
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  font-weight: bold;
+}
 
 /* life hack contents*/
-.lh-content {}
+.lh-content p {
+  text-align: center;
+  display: none;
+  
+}
+
+.lh-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #edf5e1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s;
+}
 
 /*life hack image*/
 .lh-img img {
-  object-fit: fill;
-  align-self: center;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lh-img {
+
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+
 }
 
 /* Footer*/
@@ -234,12 +271,14 @@ footer button:hover {
 footer form {
   padding-left: 15%;
   padding-top: 10px;
-  
+
 }
+
 footer input {
-  
+
   height: 25px;
 }
+
 footer form h3 {
   padding-bottom: 5px;
 }
@@ -271,36 +310,40 @@ footer form h3 {
   border: 2px solid #05386f;
   margin-top: 20px;
   border-radius: 12px;
-  
+
 }
+
 /*contact form*/
 .contact-form {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .contact-form-container {
   max-width: 600px;
   margin-top: 20px;
-  
+
   padding: 0 20px 20px 20px;
   box-shadow: 10px 10px 10px #379683;
   background-color: #edf5e1;
   border-radius: 12px;
   margin: auto;
 }
+
 .contact-form label {
   margin-top: 10px;
   font-weight: bold;
 }
+
 .contact-form input,
 textarea {
   padding: 10px;
   margin: 5px 0 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #05386f;
   border-radius: 8px;
 }
+
 .contact-form button {
   background-color: #5cdb95;
   color: #fff;
@@ -313,6 +356,7 @@ textarea {
 .contact-form button:hover {
   background-color: #8ee4af;
 }
+
 /*media querry: tablets and larger (768 px up)*/
 @media screen and (min-width:768px) {
 
