@@ -133,6 +133,7 @@ main {
   padding-top: 20px;
   text-align: center;
   font-size: 150%;
+  
 
 }
 
@@ -141,6 +142,7 @@ main {
   border: 5px solid #05386f;
   background-color: #05386f;
   color: #edf5e1;
+  border-radius: 5px;
 }
 
 /* Hero section*/
@@ -158,6 +160,7 @@ main {
   bottom: 10px;
   width: 100%;
   text-align: center;
+  border-radius: 5px;
 }
 
 /* flex grid to adjust life hack box locations*/
@@ -190,6 +193,7 @@ main {
   left: 0;
   bottom: 0;
   font-weight: bold;
+  width: 100%;
 }
 
 /* life hack contents*/
@@ -198,9 +202,9 @@ main {
   display: none;
   
 }
-
+/*hidden text for each lifebox that shows contenet on click*/
 .lh-content {
-  display: none;
+  visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -212,8 +216,18 @@ main {
   justify-content: center;
   align-items: center;
   transition: opacity 0.5s;
+  z-index: 99;
+  opacity: 0;
+  
 }
-
+/*hide checkboxes that act as text reveal buttons*/
+.toggle-contents{
+  display: none;
+}
+.toggle-contents:checked~ .lh-box .lh-content {
+  opacity: 1;
+  visibility: visible;
+}
 /*life hack image*/
 .lh-img img {
   width: 100%;
