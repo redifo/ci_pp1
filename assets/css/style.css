@@ -59,6 +59,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 /*logo img*/
 #logo-img {
   max-height: 6rem;
@@ -110,6 +111,7 @@ nav {
 .nav-toggle-label {
   font-size: 2rem;
 }
+
 /*Change properies of the active page on the nav bar for highlighting*/
 .active {
   background-color: #379683;
@@ -225,12 +227,12 @@ footer button {
 }
 
 footer button:hover {
-  color:#5cdb95;
+  color: #5cdb95;
 }
 
 /*footer form setings to adjst the gap between other items*/
 footer form {
-  padding-left: 9%;
+  padding-left: 15%;
   padding-top: 10px;
 }
 
@@ -239,31 +241,54 @@ footer form h3 {
 }
 
 /*contact page headings*/
-#contact{
+#contact {
   justify-content: center;
-  
+
 }
-#contact h2{
-  padding-top: 3px;
-  padding-bottom: 3px;
-  display:flex;
+
+#contact h2 {
+  padding: 3px 3px 3px 3px;
+  display: flex;
   justify-content: center;
   background-color: #05386f;
-  width:38%;
-  margin-left: 31%;  
-  margin-top: 5px;
+  width: 38%;
+  margin-left: 31%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 12px;
 }
-#contact h3{
-  
-  display:flex;
+
+#contact h3 {
+  padding: 3px 3px 3px 3px;
+  display: flex;
   justify-content: center;
-  width: 80%;
-  margin-left: 10%;
+  width: 74%;
+  margin-left: 13%;
   border: 2px solid #05386f;
   margin-top: 20px;
-  
+  border-radius: 12px;
   
 }
+/*contact form*/
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 0 20px 20px 20px;
+  box-shadow: 10px 10px 10px #379683;
+  background-color: #edf5e1;
+  border-radius: 12px;
+  margin: auto;
+}
+.contact-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
 /*media querry: tablets and larger (768 px up)*/
 @media screen and (min-width:768px) {
 
@@ -335,15 +360,18 @@ footer form h3 {
     flex-direction: row;
 
   }
+
   /*Footer form size adjustment*/
-  footer form{
-      width: auto;
+  footer form {
+    width: auto;
   }
-  footer input{
+
+  footer input {
     width: 375px;
     height: 25px;
   }
-  footer h3{
+
+  footer h3 {
     font-size: 170%;
   }
 }
