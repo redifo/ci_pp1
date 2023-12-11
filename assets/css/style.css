@@ -133,7 +133,7 @@ main {
   padding-top: 20px;
   text-align: center;
   font-size: 150%;
-  
+
 
 }
 
@@ -194,45 +194,60 @@ main {
   bottom: 0;
   font-weight: bold;
   width: 100%;
-  
+
 }
 
 /* life hack contents*/
 .lh-content p {
   text-align: center;
-   
+
 }
+
 /*hidden text for each lifebox that shows contenet on click*/
-.lh-content{
+.lh-content {
   visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #edf5e1;
   text-align: center;
   justify-content: center;
   align-items: center;
   transition: opacity 0.5s;
   z-index: 3;
-  
-  }
 
-/*hide checkboxes that act as text reveal buttons*/
-.toggle-contents{
-  display: none;
-  
 }
-.toggle-contents:checked~ #hidden-text1 {
+
+#hidden-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 1.6rem;
+  width: 98%;
+  /* Adjust the width as needed */
+  height: 80%;
+  /* Adjust the height as needed */
+  overflow: auto;
+}
+
+
+
+/*making the hidden content visible with increased opacity when the box is clicked*/
+.lh-box.clicked .lh-content {
   opacity: 1;
   visibility: visible;
 }
+
 /*life hack image*/
 .lh-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+
 }
 
 .lh-img {
@@ -240,7 +255,7 @@ main {
   position: relative;
   flex: 1;
   overflow: hidden;
- 
+
 }
 
 /* Footer*/

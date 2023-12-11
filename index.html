@@ -23,7 +23,7 @@
 </head>
 
 <body>
-<!--Header-->
+    <!--Header-->
     <header>
 
         <a href="index.html">
@@ -48,7 +48,7 @@
             </ul>
         </nav>
     </header>
-<!--Main content-->
+    <!--Main content-->
     <main>
         <!--Hero image and text section-->
         <section id="hero">
@@ -62,31 +62,22 @@
         </div>
         <!--Flex box section for listing life hacks in order-->
         <div class="flex-grid">
-
-            <div class="lh-box">
-
-
+            <div class="lh-box" onclick="toggleHiddenContent(this)">
                 <div class="lh-img"><img alt="Tangled cords and cables life hack cartoon img"
                         src="assets/img/lh1-easy-cable-management.webp">
-                    </div>
-
-
+                </div>
                 <div class="lh-problem">
                     <p>Tangled cords and cables can be frustrating and time-consuming to untangle.</p>
                 </div>
-                <input type="checkbox" id="toggle-text1" class="toggle-contents">
-                <label for="toggle-text1" class="image-container"></label>
-                    <div class="lh-content">
+                <div class="lh-content">
+                    <p id="hidden-text">Solution: Use bread clips (the plastic clips used to seal bread bags) to
+                        organize and label your cords. Here's how:
+                        Save bread clips from your bread bags.
+                        Attach a bread clip to each cord or cable.
+                        Write the name of the device or purpose on the bread clip using a marker.
+                        Bundle and store your cords neatly.</p>
+                </div>
 
-                        <p id="hidden-text1">Solution: Use bread clips (the plastic clips used to seal bread bags) to
-                            organize and label your cords. Here's how:
-                            Save bread clips from your bread bags.
-                            Attach a bread clip to each cord or cable.
-                            Write the name of the device or purpose on the bread clip using a marker.
-                            Bundle and store your cords neatly.</p>
-                        
-                    </div>
-                
             </div>
             <div class="lh-box">
                 <div class="lh-img"></div>
@@ -108,7 +99,7 @@
     <!--footer section-->
     <footer>
         <!--newsletter subscription section-->
-        <form action="#" method="POST">
+        <form action="" method="POST">
             <h3>Subscribe to our Newsletter</h3>
             <input type="email" placeholder="Email Address" required>
             <button type="submit">Subscribe</button>
@@ -132,6 +123,11 @@
     </footer>
     <!--Font awesome kit-->
     <script src="https://kit.fontawesome.com/e91176a207.js" crossorigin="anonymous"></script>
+    <script>
+        function toggleHiddenContent(element) {
+            element.classList.toggle('clicked');
+        }
+    </script>
 </body>
 
 </html>
