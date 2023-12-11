@@ -91,7 +91,7 @@ nav {
 /*css to target the li elements of menu*/
 #menu>li>a {
   margin-bottom: 1rem;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 /*cursor movement on small screens over menu items*/
@@ -194,20 +194,18 @@ main {
   bottom: 0;
   font-weight: bold;
   width: 100%;
+  
 }
 
 /* life hack contents*/
 .lh-content p {
   text-align: center;
-  display: none;
-  
+   
 }
 /*hidden text for each lifebox that shows contenet on click*/
-.lh-content {
+.lh-content{
   visibility: hidden;
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
@@ -216,15 +214,16 @@ main {
   justify-content: center;
   align-items: center;
   transition: opacity 0.5s;
-  z-index: 99;
-  opacity: 0;
+  z-index: 3;
   
-}
+  }
+
 /*hide checkboxes that act as text reveal buttons*/
 .toggle-contents{
   display: none;
+  
 }
-.toggle-contents:checked~ .lh-box .lh-content {
+.toggle-contents:checked~ #hidden-text1 {
   opacity: 1;
   visibility: visible;
 }
@@ -233,6 +232,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .lh-img {
@@ -240,7 +240,7 @@ main {
   position: relative;
   flex: 1;
   overflow: hidden;
-
+ 
 }
 
 /* Footer*/
@@ -313,6 +313,7 @@ footer form h3 {
   margin-top: 15px;
   margin-bottom: 20px;
   border-radius: 12px;
+  text-align: center;
 }
 
 #contact h3 {
@@ -324,7 +325,7 @@ footer form h3 {
   border: 2px solid #05386f;
   margin-top: 20px;
   border-radius: 12px;
-
+  text-align: center;
 }
 
 /*contact form*/
@@ -337,12 +338,15 @@ footer form h3 {
 .contact-form-container {
   max-width: 600px;
   margin-top: 20px;
-
+  margin-left: 25px;
   padding: 0 20px 20px 20px;
   box-shadow: 10px 10px 10px #379683;
   background-color: #edf5e1;
   border-radius: 12px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
 }
 
 .contact-form label {
