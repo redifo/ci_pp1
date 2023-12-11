@@ -305,11 +305,16 @@ footer form h3 {
 
 /*success html page css*/
 #success{
-  font-size: 40px;
+  padding-top: 15%;
+  font-size: 50px;
+  color: #05386f;
+  text-align: center;
 }
 
 #redirect{
-  font-size: 25px;
+  font-size: 30px;
+  text-align: center;
+  
 }
 
 /*contact page headings*/
