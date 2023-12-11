@@ -280,7 +280,8 @@ footer button {
   background-color: #05386f;
   color: #edf5e1;
   font-size: 1rem;
-  padding: 2px 2px;
+  padding: 4px 4px;
+  border-radius: 10px;
 }
 
 footer button:hover {
@@ -289,8 +290,9 @@ footer button:hover {
 
 /*footer form setings to adjst the gap between other items*/
 footer form {
-  padding-left: 15%;
+  padding-left: 12%;
   padding-top: 10px;
+  width: auto;
 }
 
 footer input {
@@ -454,6 +456,7 @@ textarea {
   /*Footer form size adjustment*/
   footer form {
     width: auto;
+    padding-left: 18%;
   }
 
   footer input {
@@ -463,6 +466,9 @@ textarea {
 
   footer h3 {
     font-size: 170%;
+  }
+  footer button{
+    font-size: 1.3rem;
   }
 }
 
