@@ -303,6 +303,15 @@ footer form h3 {
   padding-bottom: 5px;
 }
 
+/*success html page css*/
+#success{
+  font-size: 40px;
+}
+
+#redirect{
+  font-size: 25px;
+}
+
 /*contact page headings*/
 #contact {
   justify-content: center;

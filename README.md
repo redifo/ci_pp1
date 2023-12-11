@@ -257,7 +257,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 https://www.youtube.com/watch?v=jBIoUWLghnY
 
 
-* 
+* The redirect of success page code recovered from: https://stackoverflow.com/questions/3292038/redirect-website-after-specified-amount-of-time
 
 ### Content
 
