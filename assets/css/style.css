@@ -68,17 +68,13 @@ ul {
 
 /*nav bar*/
 nav {
-
   position: absolute;
   left: 0;
   background-color: #05386f;
   top: 100px;
-
   display: none;
   width: 100%;
   box-shadow: 1px 5px 5px #379683;
-
-
 }
 
 /*nav menu  (ul)*/
@@ -129,13 +125,9 @@ main {
 
 /*Main heading above life hack boxes*/
 #heading-popular {
-
   padding-top: 20px;
   text-align: center;
   font-size: 200%;
-  
-
-
 }
 
 #heading-popular h4 {
@@ -198,8 +190,11 @@ main {
   font-weight: bold;
   width: 100%;
   font-size: 1.5rem;
-
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
+
+.lh-problem {}
 
 /* life hack contents*/
 .lh-content p {
@@ -248,8 +243,6 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
-
 }
 
 .lh-img {
@@ -257,7 +250,6 @@ main {
   position: relative;
   flex: 1;
   overflow: hidden;
-
 }
 
 /* Footer*/
@@ -284,8 +276,6 @@ footer {
   transition: all 0.2s ease-in-out;
 }
 
-
-
 /* footer subscribe button*/
 footer button {
   background-color: #05386f;
@@ -302,11 +292,9 @@ footer button:hover {
 footer form {
   padding-left: 15%;
   padding-top: 10px;
-
 }
 
 footer input {
-
   height: 25px;
 }
 
