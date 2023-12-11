@@ -127,12 +127,13 @@ main {
   margin-top: 100px;
 }
 
-/*Main heading above lif hack boxes index*/
+/*Main heading above life hack boxes*/
 #heading-popular {
 
   padding-top: 20px;
   text-align: center;
-  font-size: 150%;
+  font-size: 200%;
+  
 
 
 }
@@ -142,7 +143,8 @@ main {
   border: 5px solid #05386f;
   background-color: #05386f;
   color: #edf5e1;
-  border-radius: 5px;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 /* Hero section*/
@@ -180,6 +182,7 @@ main {
   padding: 0;
   margin: 20px;
   position: relative;
+  border-radius: 20px;
 
 }
 
@@ -194,13 +197,13 @@ main {
   bottom: 0;
   font-weight: bold;
   width: 100%;
+  font-size: 1.5rem;
 
 }
 
 /* life hack contents*/
 .lh-content p {
   text-align: center;
-
 }
 
 /*hidden text for each lifebox that shows contenet on click*/
@@ -216,7 +219,7 @@ main {
   align-items: center;
   transition: opacity 0.5s;
   z-index: 3;
-
+  border-radius: 20px;
 }
 
 #hidden-text {
@@ -234,8 +237,6 @@ main {
   overflow: auto;
 }
 
-
-
 /*making the hidden content visible with increased opacity when the box is clicked*/
 .lh-box.clicked .lh-content {
   opacity: 1;
@@ -247,11 +248,12 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 
 }
 
 .lh-img {
-
+  border-radius: 20px;
   position: relative;
   flex: 1;
   overflow: hidden;
