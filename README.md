@@ -4,13 +4,6 @@
 
 Visit the deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
 
-
-![GitHub last commit]()
-![GitHub contributors]()
-![GitHub language count]()
-![GitHub top language]()
-![W3C Validation]()
-
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
@@ -34,8 +27,6 @@ Visit the deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
 * [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#deployment)
   * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
   * [Solved Bugs](#solved-bugs)
@@ -71,12 +62,7 @@ Visit the deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
 
 ### Colour Scheme
 
-In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a hackathon - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.
 
-* I have used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text.
-* I have used `#292929` as the overlay used over the sites background image.
-* I have used `#a50c3c` for the border of the modal and to display the wrong answers.
-* I have used `#047638` to display the correct answer.
 
   ![ Color Scheme](documentation/color-scheme.webp)
 
@@ -87,22 +73,23 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 ![ Font Example]()
 
-* For the body of the page I have used the google font . QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
+* For the body of the page I have used the google font Work sans. Work Sans provides a modern and clean aesthetic with its sans-serif style. Sans-serif fonts are often chosen for their contemporary look and improved readability on digital screens. For the long texts on life hack boxes i have used Merriweather (Serif). It has small lines or strokes at the ends of characters which aid in guiding the reader's eye along the text.
 
 ![ Font Example](documentation/)
 
 ### Imagery
 
-As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
+The imagery was designed to blend into the color scheme by Dall-e 3 using the following prompts:
+
+* For life hack box images: (life hack text same as used in the website) + cartoon illustration of the Life Hack given above use a background color of  #05386f double check the backgroud color.
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using balsamiq.
+Wireframes were created for mobile using balsamiq.
 
 ![Home Page](documentation/wireframes/)
 ![Categories Page](documentation/wireframes/)
 ![Contact Page](documentation/wireframes/)
-![ Page](documentation/wireframes/)
 
 ### Features
 
@@ -112,7 +99,7 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-  ![favicon](documentation/p)
+  ![favicon](documentation/)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
   ![   Title](documentation/)
@@ -123,15 +110,15 @@ All Pages on the website are responsive and have:
 
 The home page  sites name as a title and then a container which holds some welcome text, 
 
-![Home page image](documentation/features/)
+![Home page image](documentation/)
 
 #### The Categories Page
 
 
 
-![](documentation/features/)
+![](documentation//)
 
-![Image of ](documentation/features/)
+![Image of ](documentation/)
 
 
 #### Future Implementations
@@ -146,7 +133,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 * Using semantic HTML.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+* Choosing a sans serif font for the site - these fonts are known to be easy to read.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
 
@@ -177,8 +164,8 @@ HTML, CSS, js
 
 * [Shields.io](https://shields.io/) To add badges to the README
   
-* [Shields.io](https://convertio.co) To covert images into webp format
-
+* [convertio.co](https://convertio.co) To covert images into webp format.
+* [redketchup.io](https://redketchup.io/bulk-image-resizer) To resize the images into same size.
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
@@ -186,41 +173,6 @@ HTML, CSS, js
 - - -
 
 ## Deployment & Local Development
-
-### Deployment
-
-The site is deployed using GitHub Pages - [Life Hacks](https://redifo.github.io/ci_pp1/).
-
-To Deploy the site using GitHub Pages:
-
-1. Login (or signup) to Github.
-2. Go to the repository for this project, [redifo/ci_pp1](https://github.com/redifo/ci_pp1).
-3. Click the settings button.
-4. Select pages in the left hand navigation menu.
-5. From the source dropdown select main branch and press save.
-6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
-
-### Local Development
-
-#### How to Fork
-
-To fork the repository:
-
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [redifo/ci_pp1](https://github.com/redifo/ci_pp1)
-3. Click the Fork button in the top right corner.
-
-#### How to Clone
-
-To clone the repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [redifo/ci_pp1](https://github.com/redifo/ci_pp1)
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
-- - -
 
 ## Testing
 
@@ -241,9 +193,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 * 
 
-* There is a a warning displaying in the console on the live page.  The error doesn't affect the site in any way.
-
-  ![Console warning](documentation/)
+* 
 
 * 
 
@@ -273,4 +223,4 @@ All the images were generated by Dall-e 3.
 I would like to acknowledge the following people:
 *
 
-* The Code Institute Slack channel Peer Code Review - 
+* 

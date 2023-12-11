@@ -198,6 +198,9 @@ main {
 /* life hack contents*/
 .lh-content p {
   text-align: center;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
 }
 
 /*hidden text for each lifebox that shows contenet on click*/
