@@ -116,8 +116,7 @@ Each device tested the site using the following browsers:
 | The Sites title | Link directs the user back to the home page | Clicked title | direct to home page | pass |
 | All buttons and navigation menu items and social media icons- hover effect | Change colour when hovered on | Hover over each button on the page | Each button displayed the correct styling when hovered over | pass |
 | Form submission redirect | Redirect to success page | form submitted | redirected to success page | pass |
-| Social media icons | clicking on them opens the website in a new window | clicked on the items | all opened in a new tab | pass ||  | | |  |  |
-
+| Social media icons | clicking on them opens the website in a new window | clicked on the items | all opened in a new tab | pass |
 
 
 `Form Success Page`
