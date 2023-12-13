@@ -132,8 +132,9 @@ All Pages on the website are responsive and include:
 ![Navigation bar mobile](documentation/img/nav-bar-mobile.png)
 ![Navigation bar image](documentation/img/nav-bar.png)
 
-* The footer appears at the bottom of every page and has a subscribe to newsletter form.
+* The footer appears at the bottom of every page and has a subscribe to newsletter form. The input field and button has hover mouse state actions. Input field is highlighted with a box shadow ad button font changes color.
 ![Footer image](documentation/img/footer.png)
+![subcription image](documentation/img/subscribe-box-shadow.png)
 
 #### The Home Page
 
@@ -145,11 +146,14 @@ The home page  has a hero image and a container which holds a welcome text, belo
 The categories page currently has 3 sections and 3 buttons have been put with these sections names on top of the page. Uopn clciking these the page scrolls/goes to that section. different backgorund colors are used  for each section to better seperate the sections.
 
 
-![](documentation//)
+![categories page](documentation/img/categories.png)
 
-![Image of ](documentation/)
 
 #### The Contact Us Page
+
+The contact us page has a main header and a simple contact form.
+
+![contact page](documentation/img/contact-page.png)
 
 #### Future Implementations
 
