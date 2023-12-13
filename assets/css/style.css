@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-}
+  }
 
 /*a decendent of header*/
 header a {
@@ -331,8 +331,8 @@ footer form h3 {
   display: flex;
   justify-content: center;
   background-color: #05386f;
-  width: 38%;
-  margin-left: 31%;
+  width: 58%;
+  margin-left: 21%;
   margin-top: 15px;
   margin-bottom: 20px;
   border-radius: 12px;

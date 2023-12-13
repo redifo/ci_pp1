@@ -77,21 +77,31 @@ Include social media icons in the footer, encouraging frequent visitors to conne
 ## Design
 
 ### Colour Scheme
+#05386f (Dark Blue):
 
+This deep, dark blue serves as the background color of navigatio bar and headings. It conveys a sense of trust, professionalism, and stability.
 
+#5cdb95 (Mint Green):
 
-  ![ Color Scheme](documentation/color-scheme.webp)
+Mint green is used as the background color of the pages main sections to add a refreshing and lively touch to the color scheme. It complements the dark blue, creating a visually pleasing contrast.
+
+#379683 (Teal Green), #edf5e1 (Light Beige), #8ee4af (Celadon Green): were used as accent colors to createa a harmonous switch between colours where necessary. Such as shodows or footer.
+
+Overall, the color scheme has been chosen to create a harmonious and visually appealing environment for users. The combination of dark and light tones, along with carefully selected accent colors, aims to enhance the website's aesthetic appeal, readability, and the overall user experience. The balance of these colors reflects the website's theme of simplicity, practicality, and a positive lifestyle.
+
+  ![ Color Scheme](documentation/img/colour-scheme.png)
 
 ### Typography
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
+![ Font Example](documentation/img/worksans.png)
 
-![ Font Example]()
+* For the body of the page I have used the google font Work sans. Work Sans provides a modern and clean aesthetic with its sans-serif style. Sans-serif fonts are often chosen for their contemporary look and improved readability on digital screens. 
 
-* For the body of the page I have used the google font Work sans. Work Sans provides a modern and clean aesthetic with its sans-serif style. Sans-serif fonts are often chosen for their contemporary look and improved readability on digital screens. For the long texts on life hack boxes i have used Merriweather (Serif). It has small lines or strokes at the ends of characters which aid in guiding the reader's eye along the text.
+![ Font Example](documentation/img/merriweather.png)
 
-![ Font Example](documentation/)
+*For the long texts on life hack boxes i have used Merriweather (Serif). It has small lines or strokes at the ends of characters which aid in guiding the reader's eye along the text.
 
 ### Imagery
 
@@ -101,32 +111,36 @@ The imagery was designed to blend into the color scheme by Dall-e 3 using the fo
 
 ### Wireframes
 
-Wireframes were created for mobile using balsamiq.
+Wireframes were created for mobile using balsamiq. For other devices wireframes were not seen as a necessity.
 
-![Home Page](documentation/wireframes/)
-![Categories Page](documentation/wireframes/)
-![Contact Page](documentation/wireframes/)
+![Home Page](documentation/wireframes/home.png)
+![Contact Page](documentation/wireframes/contact-us.png)
 
 ### Features
 
-The website is comprised of a home page, page.
+The website is comprised of a home page, categories page and a contact us page.
 
-All Pages on the website are responsive and have:
+All Pages on the website are responsive and include:
 
 * A favicon in the browser tab.
+  ![favicon](documentation/img/favicon.png)
 
-  ![favicon](documentation/)
+* The title and logo of the website at the top of every page. Both the title and the logo  also acts as a link back to the home page.
+  ![Title](documentation/img/title.png)
 
-* The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![   Title](documentation/)
+* The navigation bar appears at the top of every page and highlights the current active page with a different background colour. On mobile devices with a screen width less than 768 px the menu items are hidden with a burger (3 horizontal lines)fav icon whe clicked it reveals the meu items (pages). On devices with a mouse hovering on a menu item (pages) changes background color to provide feedback to users, indicating interactivity.
+  ![Navigation bar mobile](documentation/img/nav-bar-mobile.png)
+  ![Navigation bar image](documentation/img/nav-bar.png)
 
 * The footer appears at the bottom of every page and has a subscribe to newsletter form.
+  ![Footer image](documentation/img/footer.png)
 
 #### The Home Page
 
-The home page  sites name as a title and then a container which holds some welcome text, 
+The home page  has a hero image and a container which holds a welcome text, below the hero image the main section heading lies. And below the heading life hack boxes appear. upon clicking on the life hack boxes the remainder of the text for that life hack appears.
 
-![Home page image](documentation/)
+![Home page image](documentation/img/home-page.png)
+![Life hack click image](documentation/img/life-hack-click.png)
 
 #### The Categories Page
 
@@ -136,21 +150,21 @@ The home page  sites name as a title and then a container which holds some welco
 
 ![Image of ](documentation/)
 
+#### The Contact Us Page
 
 #### Future Implementations
 
 In future implementations I would like to:
 
-1.
+1. Add a load more and load less button for adjusting the amount of life hacks displayed on any page. Currently the amount of life hacks in the website does not require such an implementatiton.
 
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
-* Using semantic HTML.
-* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
-* Choosing a sans serif font for the site - these fonts are known to be easy to read.
-* Ensuring that there is a sufficient colour contrast throughout the site.
+* Giving all buttons a hover state to enhance the user experience by making the navigation elements responsive, ensuring that users are aware of clickable elements and encouraging engagement with the website's content.
+* Choosing a sans serif font for the website - sans serif fonts are known by their easy readibility.
+* Making sure that there is sufficient colour contrast.
 
 
 
@@ -166,6 +180,8 @@ HTML, CSS, js
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
+* [Bing.com Dall-e](https://www.bing.com/images/create/?ref=hn) - Used to create all the images within the website.
+
 * [Git](https://git-scm.com/) - For version control.
 
 * [Github](https://github.com/) - To save and store the files for the website.
@@ -174,17 +190,13 @@ HTML, CSS, js
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [Favicon.io](https://favicon.io/) To create favicon.
+* [Favicon.io](https://favicon.io/) To create favicon from the logo created by Dall-e 3.
 
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-* [Shields.io](https://shields.io/) To add badges to the README
+* [Canva.com](https://www.canva.com/) To create a mockup of the website imaage on different platforms/devices.
   
 * [convertio.co](https://convertio.co) To covert images into webp format.
 
 * [redketchup.io](https://redketchup.io/bulk-image-resizer) To resize the images into same size.
-
-* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
