@@ -219,7 +219,7 @@ main {
   border-radius: 20px;
 }
 
-#hidden-text {
+.hidden-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -404,14 +404,18 @@ textarea {
 }
 
 /*categories page styles*/
-.categories-heading{
+#categories-link-section{
+  background-color: #05386f;
+}
+.categories-link-heading{
+  padding-top: 20px;
   text-decoration: none;
   text-align: center;
-  font-size: 150%;
-  color:#05386f ;
+  font-size: 130%;
+  color:#edf5e1;
 }
-.categories-heading:hover{
-  color: #edf5e1;
+.categories-link-heading:hover{
+  color: #379683;
 }
 #office-section{
   background-color: #379683;

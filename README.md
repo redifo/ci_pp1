@@ -29,8 +29,6 @@ The deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
   * [Local Development](#local-development)
 
 * [Testing](#testing)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
   
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -203,23 +201,11 @@ HTML, CSS, js
 
 ## Deployment & Local Development
 
+The site is deployed using GitHub Pages: https://redifo.github.io/ci_pp1/
+
 ## Testing
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
-
-### Solved Bugs
-
-| No | Bug | How I solved the issue |
-| :--- | :--- | :--- |
-| 1 | | |
-| 2 | | |
-
-
-### Known Bugs
-
-* 
-
-- - -
 
 ## Credits
 
