@@ -300,6 +300,10 @@ footer form {
 
 footer input {
   height: 25px;
+  cursor: pointer
+}
+footer input:hover{
+  box-shadow:0 0 10px #05386f;
 }
 
 footer form h3 {
@@ -397,6 +401,28 @@ textarea {
 
 .contact-form button:hover {
   background-color: #8ee4af;
+}
+
+/*categories page styles*/
+.categories-heading{
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+  color:#05386f ;
+}
+.categories-heading:hover{
+  color: #edf5e1;
+}
+#office-section{
+  background-color: #379683;
+}
+#psychology-section{
+  background-color: #379683;
+}
+.categories-section-heading{
+  width: 100%;
+  text-align: center;
+  font-size: 150%;
 }
 
 /*media querry: tablets and larger (768 px up)*/
