@@ -30,12 +30,12 @@ The w3 html and jigsaw css validator has been used to make sure the code does no
 
 * [W3C](https://validator.w3.org/) 
 
-* [index.html](testing/img/backslash-error.png) - 
-* [categories.html](testing/img/no-errors.png) -  
-* [contact.html](testing/img/no-errors.png) - 
-* [success.html](testing/img/successpage-errors.png) - 
+* [index.html](documentation/testing/backslash-error.png) - 
+* [categories.html](documentation/no-errors.png) -  
+* [contact.html](documentation/no-errors.png) - 
+* [success.html](documentation/successpage-errors.png) - 
 
-* [style.css](testing/img/jigsaw-css-no-error.png) - 
+* [style.css](documentation/jigsaw-css-no-error.png) - 
 
 - - -
 
