@@ -24,19 +24,23 @@ Check each page for responsiveness. Use Chrome and Firefox tools. Ensure a seaml
 
 ### W3C Validator
 
-The w3 html and jigsaw css validator has been used to make sure the code does not contain any errors. the results shown below are the results of the final tests. During the development of the code this validator has been used multiple times but the results were not recorded before the final testings.
+The w3 html and jigsaw css validator has been used to make sure the code does not contain any errors. the results shown below are the results of the final tests. During the development of the code this validator has been used multiple times but the results were not recorded before the final testings. Fianlly All errors and warnings have been fixed.
 
  * [W3C](https://validator.w3.org/) 
 
- [index.html](documentation/testing/backslash-error.png)  
+  Home pages backslash error fixed.
+  
+ ![index.html](documentation/testing/backslash-error.png)  
 
- [categories.html](documentation/testing/no-errors.png)   
+ ![categories.html](documentation/testing/no-errors.png)   
 
- [contact.html](documentation/testing/no-errors.png)  
- 
- [success.html](documentation/testing/successpage-errors.png)  
+ ![contact.html](documentation/testing/no-errors.png)  
 
- [style.css](documentation/testing/jigsaw-css-no-error.png) 
+  Success pages first error fixed by putting a space before the url. the warning is fixed by moving the h1 out of the section part as it was not needed.
+
+ ![success.html](documentation/testing/successpage-errors.png)  
+
+ ![style.css](documentation/testing/jigsaw-css-no-error.png) 
 
 - - -
 
