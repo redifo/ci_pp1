@@ -10,7 +10,6 @@ Deployed website: [Life Hacks](https://redifo.github.io/ci_pp1/)
 
 * [AUTOMATED TESTING](#automated-testing)
   * [W3C Validator](#w3c-validator)
-  * [JavaScript Validator](#javascript-validator)
   * [Lighthouse](#lighthouse)
 * [MANUAL TESTING](#manual-testing)
   * [Testing User Stories](#testing-user-stories)
@@ -27,51 +26,46 @@ Check each page for responsiveness. Use Chrome and Firefox tools. Ensure a seaml
 
 ### W3C Validator
 
+The w3 html and jigsaw css validator has been used to make sure the code does not contain any errors. the results shown below are the results of the final tests. During the development of the code this validator has been used multiple times but the results were not recorded before the final testings.
+
 * [W3C](https://validator.w3.org/) 
 
-* [index.html](testing/) - 
-* [categories.html](testing/) -  
-* [contact.html](testing/) - 
-* [success.html](testing/) - 
+* [index.html](testing/img/backslash-error.png) - 
+* [categories.html](testing/img/no-errors.png) -  
+* [contact.html](testing/img/no-errors.png) - 
+* [success.html](testing/img/successpage-errors.png) - 
 
-* [style.css](testing/) - 
-
-- - -
-
-### JavaScript Validator
-
-* [jshint](https://jshint.com/).
-
-* [cript.js](testing/) 
+* [style.css](testing/img/jigsaw-css-no-error.png) - 
 
 - - -
 
 ### Lighthouse
 
-
+The website has been tested by google chrome's lighthouse report and the results are shown below. 
 
 ### Desktop Results
 
 All pages of the site are achieving a score of 100 across the 4 categories.
 
-![index.html](testing/)
+![index.html](testing/img/desktop-lighthouse-home.png)
 
-![categroies.html](testing/)
+![categroies.html](testing/img/desktop-lighthouse-categories.png)
 
-![contact.html](testing/)
+![contact.html](testing/img/desktop-lighthouse-contact.png)
 
-![success.html](testing/)
+![success.html](testing/img/desktop-lighthouse-success.png)
 
 ### Mobile Results
 
+Performance ratings are a bit low on some pages on mobile but achieving 100% on that metric is very hard without using very low quality photos.
 
-![index.html](testing/)
+![index.html](testing/img/mobile-lighthouse-home.png)
 
-![categroies.html](testing/)
+![categroies.html](testing/img/mobile-lighthouse-categories.png)
 
-![contact.html](testing/)
+![contact.html](testing/img/mobile-lighthouse-contact.png)
 
-![success.html](testing/)
+![success.html](testing/img/mobile-lighthouse-success.png)
 
 
 - - -
