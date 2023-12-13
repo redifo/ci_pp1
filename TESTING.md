@@ -26,14 +26,14 @@ Check each page for responsiveness. Use Chrome and Firefox tools. Ensure a seaml
 
 The w3 html and jigsaw css validator has been used to make sure the code does not contain any errors. the results shown below are the results of the final tests. During the development of the code this validator has been used multiple times but the results were not recorded before the final testings.
 
-* [W3C](https://validator.w3.org/) 
+ * [W3C](https://validator.w3.org/) 
 
-* [index.html](documentation/testing/backslash-error.png) - 
-* [categories.html](documentation/testing/no-errors.png) -  
-* [contact.html](documentation/testing/no-errors.png) - 
-* [success.html](documentation/testing/successpage-errors.png) - 
+ [index.html](documentation/testing/backslash-error.png) - 
+ [categories.html](documentation/testing/no-errors.png) -  
+ [contact.html](documentation/testing/no-errors.png) - 
+ [success.html](documentation/testing/successpage-errors.png) - 
 
-* [style.css](documentation/testing/jigsaw-css-no-error.png) - 
+ [style.css](documentation/testing/jigsaw-css-no-error.png) - 
 
 - - -
 
@@ -72,7 +72,6 @@ contact us page
 
 success page
 ![success.html](documentation/testing/mobile-lighthouse-success.png)
-
 
 - - -
 
