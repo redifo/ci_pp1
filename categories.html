@@ -62,7 +62,7 @@
                 <h2 class="categories-heading">Office Hacks</h2>
             </a>
         </section>
-        
+
         <div class="flex-grid" id="psychology-section">
             <h3 class="categories-section-heading">Psychology Section</h3>
             <div class="lh-box" onclick="toggleHiddenContent(this)">
@@ -95,52 +95,53 @@
         </div>
         <div class="flex-grid" id="kitchen-section">
             <h3 class="categories-section-heading">Kitchen Section</h3>
-        <div class="lh-box" onclick="toggleHiddenContent(this)">
-            <div class="lh-img"><img alt="cartoon copule making coffee ice cubes" src="assets/img/Freeze-Coffee.webp">
+            <div class="lh-box" onclick="toggleHiddenContent(this)">
+                <div class="lh-img"><img alt="cartoon copule making coffee ice cubes"
+                        src="assets/img/Freeze-Coffee.webp">
+                </div>
+                <div class="lh-problem">
+                    <p>Prevent melting ice cubes ruining the taste of strong iced coffee. <br> Click on the life hack to
+                        reveal rest of the text. </p>
+                </div>
+                <div class="lh-content">
+                    <p id="hidden-text">Freeze leftover coffee in ice cube trays. Use these coffee cubes instead of
+                        regular ice cubes to prevent dilution in your iced coffee.</p>
+                </div>
+
             </div>
-            <div class="lh-problem">
-                <p>Prevent melting ice cubes ruining the taste of strong iced coffee. <br> Click on the life hack to
-                    reveal rest of the text. </p>
-            </div>
-            <div class="lh-content">
-                <p id="hidden-text">Freeze leftover coffee in ice cube trays. Use these coffee cubes instead of
-                    regular ice cubes to prevent dilution in your iced coffee.</p>
+            <div class="lh-box kitchen" onclick="toggleHiddenContent(this)">
+                <div class="lh-img"><img alt="Microwave lemon with water" src="assets/img/Lemon-Microwave-Cleaner.webp">
+                </div>
+                <div class="lh-problem">
+                    <p>Cleaning a Microwave can be made easier. <br> Click on the life hack to reveal rest of the text.
+                    </p>
+                </div>
+                <div class="lh-content">
+                    <p id="hidden-text">Place a lemon half in a bowl of water and microwave it for a couple of minutes.
+                        The steam will help loosen grime, and the lemon will leave a fresh scent.</p>
+                </div>
+
             </div>
 
-        </div>
-        <div class="lh-box kitchen" onclick="toggleHiddenContent(this)">
-            <div class="lh-img"><img alt="Microwave lemon with water" src="assets/img/Lemon-Microwave-Cleaner.webp">
-            </div>
-            <div class="lh-problem">
-                <p>Cleaning a Microwave can be made easier. <br> Click on the life hack to reveal rest of the text.
-                </p>
-            </div>
-            <div class="lh-content">
-                <p id="hidden-text">Place a lemon half in a bowl of water and microwave it for a couple of minutes.
-                    The steam will help loosen grime, and the lemon will leave a fresh scent.</p>
-            </div>
+            <div class="lh-box kitchen" onclick="toggleHiddenContent(this)">
+                <div class="lh-img"><img alt="Cartoon image of using a ziploc bag to make pancakes"
+                        src="assets/img/Ziploc-Bag-Pancake-Mix-Dispenser.webp">
+                </div>
+                <div class="lh-problem">
+                    <p>Do not have pancake mix dispenser at home? Don't worry. <br> Click on the life hack to reveal
+                        rest of the text.</p>
+                </div>
+                <div class="lh-content">
+                    <p id="hidden-text">Transfer pancake batter to a Ziploc bag, snip off a corner, and use it as a
+                        mess-free dispenser for perfectly shaped pancakes.</p>
+                </div>
 
-        </div>
-
-        <div class="lh-box kitchen" onclick="toggleHiddenContent(this)">
-            <div class="lh-img"><img alt="Cartoon image of using a ziploc bag to make pancakes"
-                    src="assets/img/Ziploc-Bag-Pancake-Mix-Dispenser.webp">
             </div>
-            <div class="lh-problem">
-                <p>Do not have pancake mix dispenser at home? Don't worry. <br> Click on the life hack to reveal
-                    rest of the text.</p>
-            </div>
-            <div class="lh-content">
-                <p id="hidden-text">Transfer pancake batter to a Ziploc bag, snip off a corner, and use it as a
-                    mess-free dispenser for perfectly shaped pancakes.</p>
-            </div>
-
-        </div>
         </div>
         <div class="flex-grid" id="office-section">
             <h3 class="categories-section-heading">Office Section</h3>
             <!--div to cover the whole life hack box with onclick js function-->
-            <div class="lh-box"  onclick="toggleHiddenContent(this)">
+            <div class="lh-box" onclick="toggleHiddenContent(this)">
                 <!--life hack img div for better css adjustment of images-->
                 <div class="lh-img"><img alt="Tangled cords and cables life hack cartoon img"
                         src="assets/img/lh1-easy-cable-management.webp">
@@ -165,7 +166,9 @@
     </main>
     <footer>
         <form action="success.html">
+            <!--currently the forms do not actually submit the data because i wanted the forms to display a different page when submitted but taht requires js and i do not know that much js-->
             <h3>Subscribe to our Newsletter</h3>
+
             <input type="email" placeholder="Email Address" required>
             <button type="submit">Subscribe</button>
         </form>
