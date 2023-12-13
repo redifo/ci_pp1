@@ -55,11 +55,11 @@ The navigation menu should be straightforward, with clear labels like "Home," "C
 #### Returning Visitor Goals
 Explore More Life Hacks:
 
-Returning visitors might want to discover additional life hacks. The "Popular Life Hacks" section should be prominently displayed, providing a quick overview of trending hacks. (webpage is static at the moment).
+Returning visitors might want to discover additional life hacks. The "Popular Life Hacks" section should be prominently displayed, providing a quick overview of trending hacks. (although the webpage is static at the moment).
 
 Efficient Navigation:
 
-Ensure that the navigation menu remains consistent, allowing users to quickly jump to different sections. Consider incorporating a "Recent Hacks" or "Featured Hacks" section on the homepage to showcase new content.
+Ensure that the navigation menu remains consistent, allowing users to quickly jump to different sections.  
 
 #### Frequent Visitor Goals
 Stay Updated with Newsletter:
@@ -142,7 +142,7 @@ The home page  has a hero image and a container which holds a welcome text, belo
 ![Home page Life hack clicked image](documentation/img/life-hack-click.png)
 
 #### The Categories Page
-
+The categories page currently has 3 sections and 3 buttons have been put with these sections names on top of the page. Uopn clciking these the page scrolls/goes to that section. different backgorund colors are used  for each section to better seperate the sections.
 
 
 ![](documentation//)
@@ -156,6 +156,7 @@ The home page  has a hero image and a container which holds a welcome text, belo
 In future implementations I would like to:
 
 1. Add a load more and load less button for adjusting the amount of life hacks displayed on any page. Currently the amount of life hacks in the website does not require such an implementatiton.
+2. incorporating a "Recent Hacks" or "Featured Hacks" section on the homepage to showcase new content.
 
 ### Accessibility
 
