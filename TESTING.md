@@ -12,8 +12,6 @@ Deployed website: [Life Hacks](https://redifo.github.io/ci_pp1/)
   * [W3C Validator](#w3c-validator)
   * [Lighthouse](#lighthouse)
 * [MANUAL TESTING](#manual-testing)
-  * [Testing User Stories](#testing-user-stories)
-  * [Full Testing](#full-testing)
 
 Continuously test throughout construction. Use Chrome developer tools to find and fix issues as you build. Be proactive in addressing challenges.
 
@@ -31,11 +29,11 @@ The w3 html and jigsaw css validator has been used to make sure the code does no
 * [W3C](https://validator.w3.org/) 
 
 * [index.html](documentation/testing/backslash-error.png) - 
-* [categories.html](documentation/no-errors.png) -  
-* [contact.html](documentation/no-errors.png) - 
-* [success.html](documentation/successpage-errors.png) - 
+* [categories.html](documentation/testing/no-errors.png) -  
+* [contact.html](documentation/testing/no-errors.png) - 
+* [success.html](documentation/testing/successpage-errors.png) - 
 
-* [style.css](documentation/jigsaw-css-no-error.png) - 
+* [style.css](documentation/testing/jigsaw-css-no-error.png) - 
 
 - - -
 
@@ -47,57 +45,38 @@ The website has been tested by google chrome's lighthouse report and the results
 
 All pages of the site are achieving a score of 100 across the 4 categories.
 
-![index.html](testing/img/desktop-lighthouse-home.png)
+home page
+![index.html](documentation/testing/desktop-lighthouse-home.png)
 
-![categroies.html](testing/img/desktop-lighthouse-categories.png)
+categories page
+![categroies.html](documentation/testing/desktop-lighthouse-categories.png)
 
-![contact.html](testing/img/desktop-lighthouse-contact.png)
+contact us page
+![contact.html](documentation/testing/desktop-lighthouse-contact.png)
 
-![success.html](testing/img/desktop-lighthouse-success.png)
+success page
+![success.html](documentation/testing/desktop-lighthouse-success.png)
 
 ### Mobile Results
 
 Performance ratings are a bit low on some pages on mobile but achieving 100% on that metric is very hard without using very low quality photos.
 
-![index.html](testing/img/mobile-lighthouse-home.png)
+home page
+![index.html](documentation/testing/mobile-lighthouse-home.png)
 
-![categroies.html](testing/img/mobile-lighthouse-categories.png)
+categories page
+![categroies.html](documentation/testing/mobile-lighthouse-categories.png)
 
-![contact.html](testing/img/mobile-lighthouse-contact.png)
+contact us page
+![contact.html](documentation/testing/mobile-lighthouse-contact.png)
 
-![success.html](testing/img/mobile-lighthouse-success.png)
+success page
+![success.html](documentation/testing/mobile-lighthouse-success.png)
 
 
 - - -
 
 ## MANUAL TESTING
-
-### Testing User Stories
-
-`First Time Visitors`
-
-| Goals | How are they achieved? |
-| :--- | :--- |
-|  |
-|  |  |
-| |   |
-
-`Returning Visitors`
-
-|  Goals | How are they achieved? |
-| :--- | :--- |
-|  |  |
-
-`Frequent Visitors`
-
-| Goals | How are they achieved? |
-| :--- | :--- |
-|  |  |
-|  |
-
-- - -
-
-### Full Testing
 
 Full testing was performed on the following devices:
 
