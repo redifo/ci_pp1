@@ -28,12 +28,15 @@ The w3 html and jigsaw css validator has been used to make sure the code does no
 
  * [W3C](https://validator.w3.org/) 
 
- [index.html](documentation/testing/backslash-error.png) - 
- [categories.html](documentation/testing/no-errors.png) -  
- [contact.html](documentation/testing/no-errors.png) - 
- [success.html](documentation/testing/successpage-errors.png) - 
+ [index.html](documentation/testing/backslash-error.png)  
 
- [style.css](documentation/testing/jigsaw-css-no-error.png) - 
+ [categories.html](documentation/testing/no-errors.png)   
+
+ [contact.html](documentation/testing/no-errors.png)  
+ 
+ [success.html](documentation/testing/successpage-errors.png)  
+
+ [style.css](documentation/testing/jigsaw-css-no-error.png) 
 
 - - -
 
@@ -42,8 +45,6 @@ The w3 html and jigsaw css validator has been used to make sure the code does no
 The website has been tested by google chrome's lighthouse report and the results are shown below. 
 
 ### Desktop Results
-
-All pages of the site are achieving a score of 100 across the 4 categories.
 
 home page
 ![index.html](documentation/testing/desktop-lighthouse-home.png)
