@@ -1,8 +1,8 @@
 # Life Hacks
 
-![Life hacks shown on a variety of screen sizes](assets/images/)
+![Life hacks shown on a variety of screen sizes](documentation/img/mockup.webp)
 
-Visit the deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
+The deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
 
 ## CONTENTS
 
@@ -46,16 +46,32 @@ Visit the deployed site: [Life Hacks](https://redifo.github.io/ci_pp1/)
 ### User Stories
 
 #### First Time Visitor Goals
+Discover Engaging Life Hacks:
 
+Upon landing on the homepage, the visitor should be captivated by the hero section's message and image, encouraging them to explore ingenious life hacks. 
+
+Easy Navigation:
+
+The navigation menu should be straightforward, with clear labels like "Home," "Categories," and "Contact Us." This helps first-time visitors easily understand and access key sections of the website.
 
 
 #### Returning Visitor Goals
+Explore More Life Hacks:
 
+Returning visitors might want to discover additional life hacks. The "Popular Life Hacks" section should be prominently displayed, providing a quick overview of trending hacks. (webpage is static at the moment).
+
+Efficient Navigation:
+
+Ensure that the navigation menu remains consistent, allowing users to quickly jump to different sections. Consider incorporating a "Recent Hacks" or "Featured Hacks" section on the homepage to showcase new content.
 
 #### Frequent Visitor Goals
+Stay Updated with Newsletter:
 
+Frequent visitors interested in receiving regular updates should find the newsletter subscription form easily accessible in the footer. The form should be inviting, and the submission process seamless.
 
+Connect on Social Media:
 
+Include social media icons in the footer, encouraging frequent visitors to connect on platforms like Facebook, Instagram, YouTube, and LinkedIn. This helps in building a community around the website.
 - - -
 
 ## Design
@@ -165,7 +181,9 @@ HTML, CSS, js
 * [Shields.io](https://shields.io/) To add badges to the README
   
 * [convertio.co](https://convertio.co) To covert images into webp format.
+
 * [redketchup.io](https://redketchup.io/bulk-image-resizer) To resize the images into same size.
+
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
