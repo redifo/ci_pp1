@@ -359,9 +359,10 @@ footer form h3 {
 }
 
 .contact-form-container {
-  max-width: 600px;
+  max-width: 900px;
   margin-top: 20px;
   margin-left: 25px;
+  margin-bottom: 25px;
   padding: 0 20px 20px 20px;
   box-shadow: 10px 10px 10px #379683;
   background-color: #edf5e1;
